@@ -111,11 +111,42 @@ fi
 # funcion
 
 funcion() {
-    echo 'estoy en la funcion'
+echo 'estoy en la funcion'
 }
 
 
 funcion
+
+
+
+
+
+
+# ejemplo
+
+total=10
+
+while [ $total -ge 4 ]
+do 
+funcion
+total=$(($total - 1))
+done
+
+echo 'bucle acabado'
+
+funcion
+
+echo 'fin'
+
+
+
+
+
+
+
+
+
+
 
 
 
