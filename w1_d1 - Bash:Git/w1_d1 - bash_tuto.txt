@@ -1,4 +1,12 @@
-# 1-Sistema de directorios
+# 1-Zsh
+
+
+https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+
+
+
+
+# 2-Sistema de directorios
 
 
 cd Desktop      # cambio de directorio, entrar
@@ -38,10 +46,7 @@ ls                       # comprobacion
 
 
 
-
-
-
-# 2-Codigo
+# 3-Codigo
 
 bash --version           # version de bash
 
