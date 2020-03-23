@@ -1,0 +1,125 @@
+# 1-Sistema de directorios
+
+
+cd Desktop      # cambio de directorio, entrar
+cd ..           # salir de directorio
+
+pwd             # directorio actual
+
+ls              # listado de directorios
+ls -a           # todos los archivos
+ls -l           # listado largo
+ls -al          # ambos
+ls -als         # ambos con nº de elementos
+
+
+mkdir A         # crea directorio
+ls              # comprobacion
+touch hola.txt  # crea archivo
+ls              # comprobacion
+
+
+echo 'hola'     # print, muestra por terminal
+echo 3
+
+echo 'hola que tal, como estas?' >> hola.txt     # escribe sobre el archivo hola.txt
+cat hola.txt                                     # lee el archivo
+grep 'hola' hola.txt                             # busca patron en el archivo
+
+
+rm -rf hola.txt          # borra archivo
+ls                       # comprobacion 
+
+rm -rf A                 # borra directorio
+ls                       # comprobacion
+
+
+
+
+
+
+
+
+
+# 2-Codigo
+
+bash --version           # version de bash
+
+tput reset               # resetea pantalla
+
+grep py                  # error, para salir ctrl+c
+
+date                     # fecha
+cal                      # calendario
+
+a=10                     # asigna variable
+echo $a                  # print, $ para variables
+
+
+
+# bucles
+for i in 1 2 3  
+do
+echo $i
+done
+
+
+
+for i in {0..10..2}       # start-stop-step
+do
+echo $i
+done
+
+
+
+for (( ; ; ))     # bucle infinito
+do
+echo 1
+done
+
+
+
+
+# while
+total=1
+
+while [ $total -le 3 ]
+do
+total=$(($total + 1))
+done
+echo 'bucle acabado'
+echo $total 
+
+
+
+
+
+
+# condicional
+
+a=1
+
+if [ $a -le 3 ]
+then
+echo 'pequeño'
+else 
+echo 'grande'
+fi
+
+
+
+# funcion
+
+funcion() {
+    echo 'estoy en la funcion'
+}
+
+
+funcion
+
+
+
+
+
+
+
