@@ -21,3 +21,5 @@ def multi(a,b):
 
 def divi(a,b):
 	return a/b
+	
+
