@@ -9,11 +9,15 @@ import MySQLdb as mdb      # base de datos, conexion mysql
 
 
 db_host='localhost'         #host
-db_user='admin'             #usuario
+db_user='root'              #usuario
 db_pass='password'          #password
 db_name='Apps'              #nombre de la base de datos
+
+
 con=mdb.connect(host=db_host, user=db_user, passwd=db_pass, db=db_name, autocommit=True, use_unicode=True, charset="utf8") #conecta con la base de datos
 print ('Conectado.')
+
+
 cur=con.cursor()            # cursor sql, para ejecutar comandos 
 
 
