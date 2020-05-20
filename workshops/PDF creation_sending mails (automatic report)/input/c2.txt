@@ -1,0 +1,29 @@
+CHAPTER 2
+
+Introduction to NumPy
+
+This chapter, along with Chapter 3, outlines techniques for effectively loading, stor‐
+ing, and manipulating in-memory data in Python. The topic is very broad: datasets
+can come from a wide range of sources and a wide range of formats, including collec‐
+tions of documents, collections of images, collections of sound clips, collections of
+numerical measurements, or nearly anything else. Despite this apparent heterogene‐
+ity, it will help us to think of all data fundamentally as arrays of numbers.
+For example, images—particularly digital images—can be thought of as simply twodimensional arrays of numbers representing pixel brightness across the area. Sound
+clips can be thought of as one-dimensional arrays of intensity versus time. Text can be
+converted in various ways into numerical representations, perhaps binary digits rep‐
+resenting the frequency of certain words or pairs of words. No matter what the data
+are, the first step in making them analyzable will be to transform them into arrays of
+numbers. (We will discuss some specific examples of this process later in “Feature
+Engineering” on page 375.)
+For this reason, efficient storage and manipulation of numerical arrays is absolutely
+fundamental to the process of doing data science. We’ll now take a look at the special‐
+ized tools that Python has for handling such numerical arrays: the NumPy package
+and the Pandas package (discussed in Chapter 3.)
+This chapter will cover NumPy in detail. NumPy (short for Numerical Python) pro‐
+vides an efficient interface to store and operate on dense data buffers. In some ways,
+NumPy arrays are like Python’s built-in list type, but NumPy arrays provide much
+more efficient storage and data operations as the arrays grow larger in size. NumPy
+arrays form the core of nearly the entire ecosystem of data science tools in Python, so
+time spent learning to use NumPy effectively will be valuable no matter what aspect
+of data science interests you.
+
